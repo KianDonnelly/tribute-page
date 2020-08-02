@@ -1,0 +1,67 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+h3 {
+  
+}
+
+ul {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+li {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#img-caption{
+  margin: 10px 0px 0px 0px;
+  font-size: 1.4rem;
+  opacity: 75%;
+}
+
+blockquote {
+  margin: 0px;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
